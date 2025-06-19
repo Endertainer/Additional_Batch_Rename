@@ -2,11 +2,7 @@
 #     Load Modules     
 #━━━━━━━━━━━━━━━━━━━━━━
 
-if "add_batchrename" in locals():
-    import importlib
-    importlib.reload(add_batchrename)
-else:
-    from . import add_batchrename
+from . import add_batchrename
 
 #━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 #     Register & Unregister     
