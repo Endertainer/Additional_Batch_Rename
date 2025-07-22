@@ -23,6 +23,7 @@ This add-on has 10 settings:
 - **Selected:** Rename only the selected objects.
 - **All:** Rename all objects in the scene. When the target is set to bones only, rename all bones on the active armature.
 - **Find & Replace:** Find the target name and replace it.
+- **Exact Match:** If enabled, find only string with exact matches.
 - **Prefix:** Add the new name at the beginning of the old name.
 - **Suffix:** Add the new name at the end of the old name.
   
